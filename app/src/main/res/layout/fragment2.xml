@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/part2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="驾车监控   "
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#555555" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#768da2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/input_layout_rePsw6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/input_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="10.81"
+                    android:textColor="#ffffff"
+                    android:textSize="56sp" />
+
+                <TextView
+                    android:id="@+id/input_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="公里"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="80dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:backgroundTint="#f2ecec"
+                app:borderWidth="0dp"
+                app:rippleColor="#33728dff"
+                app:elevation="8dp"
+                app:pressedTranslationZ="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/input_layout_rePsw3"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/input_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:background="#00000000"
+                    android:padding="5dip"
+                    android:text="当前测量数据:"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#DBDBDB" />
+
+            <LinearLayout
+                android:id="@+id/input_layout_rePsw33"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:src="@drawable/ic_heart" />
+
+                <TextView
+                    android:id="@+id/input_heart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:background="#00000000"
+                    android:text="--"
+                    android:textColor="#318430"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#DBDBDB" />
+
+            <LinearLayout
+                android:id="@+id/input_layout_rePsw34"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.8"
+                    android:src="@drawable/ic_press" />
+
+                <TextView
+                    android:id="@+id/input_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:background="#00000000"
+                    android:text="--"
+                    android:textColor="#318430"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#DBDBDB" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw35"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/ic_wd" />
+
+            <TextView
+                android:id="@+id/input_tw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:background="#00000000"
+                android:text="--"
+                android:textColor="#318430"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#DBDBDB" />
+
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw36"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:text="开始驾车后自动打开紧急报警功能！"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

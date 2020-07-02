@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/part3"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_back2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:text="修改账户   "/>
+        </android.support.v7.widget.Toolbar>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#555555" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="30dip">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#DBDBDB" />
+
+
+
+            <LinearLayout
+                android:id="@+id/input_layout_version"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/nicheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="昵 称"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/input_nc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:text="陈大毛"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.85"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+            <LinearLayout
+                android:id="@+id/input_layout_about"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/xingbie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="性 别"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/input_xb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:text="男"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.85"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+            <LinearLayout
+                android:id="@+id/input_layout_about2"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/jialing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="驾 龄"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/input_jl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:text="2.1年"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.85"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="30dip">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="手 机"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/input_mp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:text="1785****1494"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.85"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#DBDBDB" />
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="紧急联系人1"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/input_man1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:text="110"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.85"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/man2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="紧急联系人2"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/input_man2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:text="119"
+                    android:padding="5dip"
+                    android:textSize="16sp"
+                    android:layout_weight="0.85"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="30dip">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+            <LinearLayout
+                android:id="@+id/input_layout_4"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/input_rePsw3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="退 出 登 录"
+                    android:padding="5dip"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DBDBDB" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

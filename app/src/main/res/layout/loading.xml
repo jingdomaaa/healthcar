@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1.8">
+        <ImageView
+            android:id="@+id/skip"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_jump"
+            android:layout_weight="0"/>
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="130dip"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_logo"
+            android:layout_weight="1.2"/>
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:textSize="18dip"
+            android:text="开车不喝酒 喝酒不开车"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
